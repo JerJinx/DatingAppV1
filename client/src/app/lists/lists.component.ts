@@ -26,7 +26,7 @@ export class ListsComponent implements OnInit, OnDestroy {
     switch (this.predicate) {
       case 'liked': return 'Members you like';
       case 'likedBy': return 'Members who like you';
-      default: return 'Mutal';
+      default: return 'Mutual';
     }
   }
 
